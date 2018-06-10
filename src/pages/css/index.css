@@ -1,0 +1,603 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800,900|Roboto+Condensed');
+*, h4, p {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(25, 25, 25);
+}
+.background, .subBackground {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+  height: 100%;
+}
+
+.carouselControls {
+  display: flex;
+  align-items: flex-end;
+  margin-right: 5rem;
+  padding: .5rem;
+}
+
+.carouselControls span {
+  position: relative;
+  overflow: hidden;
+  margin-right: 2rem;
+}
+.carouselControls span > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 1s ease;
+  color: rgba(255, 255, 255, .7);
+}
+
+.carouselControls span > div:last-of-type {
+  position: relative;
+}
+
+.carouselControls button {
+  line-height: 1;
+  padding: .93rem;
+  margin: 0 .4rem;
+  position: relative;
+  top: 1rem;
+  border: 3px solid white;
+}
+
+.carouselControls img {
+  width: .5rem;
+  margin: 0;
+  transition: all .2s ease;
+}
+
+button, a.button {
+  background: transparent;
+  border: none;
+  line-height: 2; 
+  padding: .25rem 2.5rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 3px solid white;
+  color: white;
+  letter-spacing: 1px;
+  font-size: .8em;
+  transition: all .2s ease;
+  text-decoration: none;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+
+button.main, a.button.main {
+  background-color: transparent;
+  border: 3px solid #702c91;
+  color: #702c91;
+}
+
+button::after, a.button::after {
+  content: '';
+  background-color: white;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 101%;
+  height: 101%;
+  z-index: -1;
+  transition: all .3s ease;
+}
+
+button.main::after, a.button.main::after {
+  content: '';
+  background-color: #702c91;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: -1;
+  transition: all .3s ease;
+}
+
+button:hover, a.button:hover, button.cActive {
+  color: #702c91;
+}
+
+button.main:hover, a.button.main:hover {
+  color: white;
+}
+
+button:hover::after, a.button:hover::after, button.cActive::after {
+  transform: translateY(-100%);
+}
+
+button.main:hover::after, a.button.main:hover::after {
+  transform: translateY(-100%);
+}
+
+.background > div:last-of-type {
+  position: absolute;
+  left: -35vh;
+  bottom: 0;
+  width: 85vh;
+  transform: rotate(270deg);
+  transform-origin: top center;
+  text-align: right;
+}
+
+.background > div > span {
+  position: relative;
+  text-transform: uppercase;
+  padding-left: .5rem;
+  color: rgba(255, 255, 255, .7);
+  letter-spacing: 1.5px;
+}
+
+.background > div > span::before {
+  content: '';
+  position: absolute;
+  left: -300%;
+  width: 300%;
+  height: 2px;
+  top: 50%;
+  background-color: #702c91;
+}
+
+header {
+  padding-top: 50vh;
+  display: flex;
+  justify-content: flex-end;
+}
+header.sub {
+  padding-top: 25vh;
+}
+
+.headerTitle {
+  padding: 4rem 9.2vw 4rem 6.5rem;
+  background: #702c91;
+  /* background-color: #702c91e6; */
+  color: whitesmoke;
+}
+
+.headerTitle p {
+  margin: .8rem 0 2.5rem 0; 
+  color: rgba(255, 255, 255, .7);
+}
+
+.headerTitle h1 {
+  margin: 0;
+  font-size: 6.5rem;
+  font-style: initial;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+.headerTitle h1 > span {
+  font-style: normal;
+  font-family: inherit;
+}
+
+.headerTitle button:first-of-type {
+  margin-right: 1rem;
+}
+
+#heroServ {
+  background: white;
+  padding: 5rem 9.2vw 10rem 9.2vw;
+}
+
+#heroServ > div:first-of-type {
+  display: flex;
+  /* margin-top: -5rem; */
+}
+
+#heroServ > div:first-of-type > div:first-of-type {
+  max-width: 38%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#heroServ > div:first-of-type > div:last-of-type {
+  flex-grow: 1;
+}
+
+#heroServ > div:first-of-type img {
+  position: relative;
+  margin: 0;
+  float: right;
+  right: -9.2vw;
+}
+
+#heroServ > div:first-of-type h3 {
+  font-size: 2.5em;
+}
+
+#heroServ > div:first-of-type h3 > span {
+  color: #702c91;
+  font-size: 1.6em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#heroServ > div:last-of-type {
+  margin: 6rem 0 3rem 0;
+  text-align: center;
+}
+
+#heroServ > div:last-of-type h3 {
+  margin-bottom: 1.5rem;
+}
+
+.subTitleWrap {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.subTitleWrap h3 {
+  font-size: 2.5em;
+  max-width: 38%;
+}
+
+.subTitleWrap h3 > span {
+  color: #702c91;
+  font-family: inherit;
+}
+
+.subTitleWrap p {
+  max-width: 38%;
+}
+
+.heroServices {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+
+.heroServices > div {
+  max-width: 25%;
+}
+
+.heroServices img {
+  width: 5rem;
+}
+
+.heroAbout {
+  display: flex;
+  background-color: rgba(245, 245, 245, 0.9);
+  padding: 5rem 0;
+}
+.heroAbout > div {
+  margin-bottom: -8rem;
+  width: 25%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.heroAbout > div:nth-of-type(2n) {
+  margin-bottom: 0;
+  margin-top: -8rem;
+  align-items: flex-start;
+}
+
+div.habtText {
+  text-align: center;
+  padding-top: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 35%;
+  padding: 1rem;
+}
+
+div.habtText p {
+  padding: 0 1rem;
+}
+
+.habtText h3 {
+  font-size: 2.5em;
+}
+
+
+.heroAbout img {
+  width: 100%;
+  margin: 0;
+}
+
+.quote {
+  padding: 8rem 5rem;
+  background: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #702c91;
+}
+
+.quote > div {
+  max-width: 38vw;
+}
+
+.quote img {
+  width: 4rem;
+  margin-bottom: 1rem;
+}
+
+.quote h3 {
+  color: whitesmoke;
+  font-size: 1.5em;
+  margin-left: 2.5rem;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+.quote em {
+  color: rgba(255, 255, 255, .65);
+  margin-left: 2.5rem;
+}
+
+.caller {
+  background-color: #95ca36;
+  display: flex;
+  padding: 2.5rem 15vw;
+  justify-content: space-between;
+}
+
+.caller > div {
+  display: flex;
+  align-items: center;
+}
+
+.caller button:first-of-type {
+  margin-right: 1rem;
+}
+
+.caller h3 {
+  margin: 0;
+  color: white;
+  font-size: 1.85em;
+}
+
+
+@media screen and (max-width: 1366px) {
+  header {
+    padding-top: 45vh;
+  }
+  .headerTitle {
+    padding: 2rem 5vw 2rem 4rem;
+  }
+  .headerTitle h1 {
+    font-size: 5rem;
+  }
+  .background > div > span {
+    font-size: .8em;
+  }
+  .subTitleWrap h3, .subTitleWrap p {
+    max-width: 50%;
+  }
+  .heroAbout {
+    padding: 3rem 0;
+  }
+  .heroAbout > div {
+    margin-bottom: -6rem;
+  }
+  .heroAbout > div:nth-of-type(2n) {
+    margin-top: -6rem;
+  }
+  div.habtText {
+    margin: 0;
+  }
+  .habtText h3 {
+    font-size: 1.5em;
+  }
+  .quote h3 {
+    font-size: 1.25em;
+  }
+  .caller {
+    padding: 2.5rem 7.5vw;
+  }
+  .caller h3 {
+    font-size: 1.25em;
+  }
+}
+
+
+@media screen and (max-width: 1025px) {
+  .headerTitle h1 {
+    font-size: 4rem;
+  }
+  .carouselControls, .carouselControls span {
+    margin-right: 1rem;
+  }
+  #heroServ > div:first-of-type h3, .subTitleWrap h3 {
+    font-size: 2em;
+  }
+  .background > div:last-of-type {
+    display: none;
+  }
+  .heroAbout {
+    padding: 1rem 0;
+  }
+  .heroAbout > div {
+    margin-bottom: -2rem;
+  }
+  .heroAbout > div:nth-of-type(2n) {
+    margin-top: -2rem;
+  }
+  div.habtText {
+    margin: 0rem;
+    width: 50%;
+  }
+  .caller {
+    flex-direction: column;
+    align-items: center;
+  }
+  .caller > div:last-of-type {
+    margin-top: 1.25rem;
+  }
+  .footLogo img {
+    width: 12.5rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #heroServ {
+    background: white;
+    padding: 5rem 5vw 5rem 5vw;
+  }
+  #heroServ > div:first-of-type img {
+    right: -5vw;
+  }
+  .habtText h3 {
+    font-size: 1.38rem
+  }
+  div.habtText p {
+    font-size: .85em;
+    line-height: 1.4;
+  }
+  div.habtText {
+    padding: .25rem 1rem;
+  }
+  .heroAbout > div:nth-of-type(2n), .heroAbout > div {
+    align-items: center;
+  }
+  .quote > div {
+    max-width: 62vw;
+  }
+  .carouselControls {
+    margin-right: 0;
+  }
+  .carouselControls span {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .heroServices > div {
+    max-width: none;
+    margin-right: .5rem;
+  }
+  .heroServices > div:last-of-type {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+  .headerTitle {
+    z-index: 1;
+  }
+  .carouselControls {
+    justify-content: flex-end;
+  }
+  #heroServ > div:first-of-type {
+    flex-direction: column-reverse;
+  }
+  #heroServ > div:first-of-type img {
+    right: 0;
+  }
+  #heroServ > div:first-of-type > div:first-of-type {
+    max-width: 85%;
+    margin-top: 2.5rem;
+  }
+  .subTitleWrap {
+    /* margin-top: 5rem; */
+  }
+  .subTitleWrap h3, .subTitleWrap p {
+    max-width: 85%;
+  }
+  .heroAbout > div:nth-of-type(2n), .heroAbout > div {
+    display: none;
+  }
+  .heroAbout > .habtText {
+    display: inherit;
+    width: 100%;
+    padding: 5rem 1rem;
+  }
+  div.habtText p {
+    font-size: 1em;
+  }
+  .caller h3 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .heroServices {
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+  .heroServices > div {
+    margin: 0 0 1rem 0;
+  }
+  .heroServices img {
+    float: left;
+    margin-right: 2.5rem;
+  }
+  .heroServices h3 {
+    margin-bottom: .8rem;
+  }
+  #heroServ > div:last-of-type {
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .caller > div:last-of-type {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .caller button:first-of-type {
+    margin-right: 0;
+    margin-bottom: .5rem;
+  }
+  .caller button, .caller a {
+    width: 85%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .headerTitle {
+    padding: 2rem 5vw;
+  }
+  .headerTitle p {
+    margin-bottom: 2rem;
+  }
+  .subTitleWrap {
+    margin-top: 7.5rem;
+  }
+  .quote {
+    padding: 5rem 9.2vw;
+  }
+  .quote > div {
+    max-width: 85vw;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .headerTitle h1 {
+    font-size: 3.5rem;
+  }
+  .heroServices img {
+    float: none;
+  }
+  .heroServices > div {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  
+  .quote > div {
+    max-width: 100%;
+  }
+}

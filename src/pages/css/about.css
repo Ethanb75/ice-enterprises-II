@@ -1,0 +1,21 @@
+.abtWrap {
+  flex-direction: column;
+  align-items: center;
+}
+.abtWrap > * {
+  max-width: 62%;
+}
+.abtWrap > img {
+  margin-bottom: 2.5rem;
+  max-width: 50rem;
+  width: 62%;
+}
+
+@media screen and (max-width: 600px) {
+  .abtWrap > * {
+    max-width: 100%;
+  }
+  .abtWrap > img {
+    width: 100%;
+  }
+} 

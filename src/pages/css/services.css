@@ -1,0 +1,144 @@
+a {
+  color: #702c91;
+}
+
+.pagination {
+  margin-bottom: 2.5rem;
+}
+
+main {
+  background: white;
+  padding: 5rem 9.2vw 5rem 9.2vw;
+  display: flex;
+}
+
+main.servWrap > div:last-of-type {
+  width: 50vw;
+}
+
+main > div:first-of-type span {
+  color: #702c91;
+  cursor: pointer;
+}
+
+main > div h2 {
+  font-size: 2.5em;
+  margin-bottom: 2rem;
+}
+
+main > div h2, main > div p {
+  max-width: 62%;
+}
+
+header.sub .headerTitle h1 {
+  max-width: 50vw;
+}
+
+.service {
+  margin-bottom: 3rem;
+}
+
+.service a {
+  color: #702c91;
+  text-decoration: none;
+}
+
+.service h3 {
+  font-size: 1.8em;
+  margin-bottom: 1rem;
+  position: relative;
+  margin-right: .5rem;
+}
+
+.service h3 span {
+  color: initial;
+  font-weight: initial;
+  font-size: .55em;
+  display: block;
+  margin-top: .5rem;
+  color: rgba(25, 25, 25, .8)
+}
+
+main.col {
+  flex-direction: column;
+  align-items: center;
+}
+
+.servTitle {
+  font-size: 2.5em;
+}
+
+.servSub {
+  max-width: 62%;
+  margin-bottom: 5rem;
+}
+
+main.col > * {
+  max-width: 62%;
+  width: 100%;
+}
+
+main.col h3 {
+  margin-top: 2.5rem;
+  font-size: 2em;
+}
+
+main article img {
+  margin-bottom: 0;
+}
+
+article > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2.5rem;
+} 
+
+article:nth-of-type(2n) > div {
+  padding-left: 0;
+  padding-right: 2.5rem;
+}
+
+@media screen and (max-width: 900px) {
+  header.sub .headerTitle h1 {
+    max-width: 62vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  main > div h2, main > div p {
+    max-width: 85%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header.sub .headerTitle p {
+    margin-bottom: 1rem;
+  }
+  header.sub .headerTitle h1 {
+    max-width: none;
+  }
+  main > div h2, main > div p {
+    max-width: none;
+    /* text-align: center; */
+  }
+  main.servWrap {
+    flex-direction: column;
+  }
+  main.servWrap > div:last-of-type {
+    width: 100%;
+    margin-top: 5rem;
+  }
+  .service {
+    margin-bottom: 2rem;
+  }
+  main.col > * {
+    max-width: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  header.sub .headerTitle h1 {
+    font-size: 3.5rem;
+  }
+}

@@ -1,0 +1,50 @@
+.carouselWrap {
+  /* position: fixed; */
+}
+.carouselWrap img {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: all 1s ease;
+  opacity: 0;
+}
+@media screen and (max-width: 1024px) {
+  .carouselWrap {
+    overflow: hidden;
+  }
+  .carouselWrap img, .subBackground img {
+    width: initial;
+    max-width: none;
+    height: 100%;
+  }
+  /* .subBackground img {
+    height: 85vh;
+    width: initial;
+    max-width: none;
+  } */
+  .carouselControls {
+    margin-right: 1rem;
+  }
+  .carouselControls span {
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .subBackground img {
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .subBackground img {
+    height: 70vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  .subBackground img {
+    height: 50vh;
+  }
+}
