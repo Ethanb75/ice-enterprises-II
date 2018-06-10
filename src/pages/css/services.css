@@ -117,6 +117,7 @@ article:nth-of-type(2n) > div {
   }
   header.sub .headerTitle h1 {
     max-width: none;
+    font-size: 12vw;
   }
   main > div h2, main > div p {
     max-width: none;
@@ -136,9 +137,9 @@ article:nth-of-type(2n) > div {
     max-width: none;
   }
 }
-
+/* 
 @media screen and (max-width: 450px) {
   header.sub .headerTitle h1 {
     font-size: 3.5rem;
   }
-}
+} */

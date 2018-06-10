@@ -177,3 +177,9 @@ ul.navLinks a:hover::before, ul.navLinks a:active::before {
     background-color: #702c91;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .navTitle {
+    margin-left: 5vw;
+  }
+}
