@@ -588,7 +588,7 @@ div.habtText p {
 
 @media screen and (max-width: 360px) {
   .headerTitle h1 {
-    font-size: 3.5rem;
+    /* font-size: 3.5rem; */
   }
   .heroServices img {
     float: none;
