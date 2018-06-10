@@ -494,6 +494,9 @@ div.habtText p {
   .headerTitle {
     z-index: 1;
   }
+  .headerTitle h1 {
+    font-size: 12vw;
+  }
   .carouselControls {
     justify-content: flex-end;
   }
