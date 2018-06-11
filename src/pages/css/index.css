@@ -24,8 +24,8 @@ h1, h2, h3 {
 
 .carouselControls span {
   position: relative;
-  overflow: hidden;
-  margin-right: 2rem;
+  /* overflow: hidden; */
+  margin-right: 4rem;
 }
 .carouselControls span > div {
   position: absolute;
@@ -34,6 +34,7 @@ h1, h2, h3 {
   opacity: 0;
   transition: all 1s ease;
   color: rgba(255, 255, 255, .7);
+  white-space: nowrap;
 }
 
 .carouselControls span > div:last-of-type {

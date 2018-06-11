@@ -62,8 +62,8 @@ export default class IndexPage extends Component {
         <header>
           <div className="carouselControls">
             <span>
-              <div style={carouselSlide === 0 ? { opacity: 1 } : {}}>project title</div>
-              <div style={carouselSlide === 1 ? { opacity: 1 } : {}}>project title2</div>
+              <div style={carouselSlide === 0 ? { opacity: 1 } : {}}>Grayslake Central HS</div>
+              <div style={carouselSlide === 1 ? { opacity: 1 } : {}}>Grant HS</div>
               <div style={carouselSlide === 2 ? { opacity: 1 } : {}}>project title3</div>
             </span>
             <button onClick={() => this.manualCarouselSelect(0)} className={carouselSlide === 0 ? 'cActive' : ''}>1</button>
