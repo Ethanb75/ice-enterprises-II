@@ -554,6 +554,9 @@ div.habtText p {
 }
 
 @media screen and (max-width: 435px) {
+  .headerTitle {
+    padding: 2rem 5vw;
+  }
   .caller > div:last-of-type {
     flex-direction: column;
     width: 100%;
@@ -567,23 +570,20 @@ div.habtText p {
     width: 85%;
     text-align: center;
   }
-}
-
-@media screen and (max-width: 400px) {
-  .headerTitle {
-    padding: 2rem 5vw;
-  }
-  .headerTitle p {
-    margin-bottom: 2rem;
-  }
-  .subTitleWrap {
-    margin-top: 7.5rem;
-  }
   .quote {
     padding: 5rem 9.2vw;
   }
   .quote > div {
     max-width: 85vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .headerTitle p {
+    margin-bottom: 2rem;
+  }
+  .subTitleWrap {
+    margin-top: 7.5rem;
   }
 }
 
