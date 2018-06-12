@@ -2,6 +2,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import Footer from '../components/Footer';
+import Helmet from 'react-helmet';
 
 
 import './css/services.css'
@@ -15,6 +16,9 @@ function pageHeight() {
 
 const ServicesPage = () => (
   <div>
+    <Helmet
+      title="ICE Enterprises | Services"
+    />
     <div className="subBackground">
       <img src={cover3} />
     </div>

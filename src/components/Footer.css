@@ -15,18 +15,18 @@ footer > div {
 }
 
 .footLogo img {
-  width: 15rem;
+  width: 12rem;
   margin-bottom: 1.5rem;
 }
 
 .footLogo p {
-  margin-bottom: 0;
+  margin-bottom: .5rem;
   color: rgb(25, 25, 25);
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .footLogo p:first-of-type {
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 }
 
 .footLinks {
@@ -66,7 +66,7 @@ footer > div {
 }
 
 .footLinks li {
-  margin-bottom: .25rem;
+  margin-bottom: .5rem;
   list-style: none;
 }
 
@@ -80,7 +80,7 @@ footer > div {
   justify-content: space-between;
 }
 
-.footLinks.purp a, .footLogo.purp p, .meta.purp {
+.footLinks.purp a, .footLogo.purp p, .footLogo.purp a, .meta.purp, .meta.purp a {
   color: whitesmoke;
 }
 .footLinks.purp ul::before {

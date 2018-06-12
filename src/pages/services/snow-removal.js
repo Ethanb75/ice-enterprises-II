@@ -1,19 +1,23 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import Helmet from 'react-helmet';
 
 import Footer from '../../components/Footer';
 
 import cover from '../../assets/serv2.1-comp.jpg';
 import lm1 from '../../assets/sr.jpg';
 
-const TurfFertilization = () => (
+const SnowRemoval = () => (
   <div>
+    <Helmet
+      title="ICE Enterprises | Salting, DeIcing, and Snow Removal"
+    />
     <div className="subBackground">
       <img src={cover} />
     </div>
     <header className="sub">
       <div className="headerTitle">
-        <h1>Turf Fertilization</h1>
+        <h1>Snow Removal</h1>
         <p>We offer a wide range of custom solutions.</p>
       </div>
     </header>
@@ -53,4 +57,4 @@ const TurfFertilization = () => (
   </div>
 );
 
-export default TurfFertilization;
+export default SnowRemoval;

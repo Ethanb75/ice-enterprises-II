@@ -37,7 +37,9 @@ export default class Header extends Component {
           <li onMouseEnter={() => console.log('hova')}>
             <Link to="/services">Services</Link>
           </li>
-          <li className="num">(815) 271-0368</li>
+          <li className="num">
+            <a href="tel:8152710368">(815) 271-0368</a>
+          </li>
           <li>
             <button className="main" onClick={() => window.scrollTo({ top: pageHeight(), behavior: 'smooth' })}>Contact Us</button>
           </li>

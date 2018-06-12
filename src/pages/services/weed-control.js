@@ -1,13 +1,17 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import Helmet from 'react-helmet';
 
 import Footer from '../../components/Footer';
 
 import cover from '../../assets/serv2.1-comp.jpg';
 import lm1 from '../../assets/tf.jpg';
 
-const TurfFertilization = () => (
+const WeedControl = () => (
   <div>
+    <Helmet
+      title="ICE Enterprises | Weed Control"
+    />
     <div className="subBackground">
       <img src={cover} />
     </div>
@@ -42,4 +46,4 @@ const TurfFertilization = () => (
   </div>
 );
 
-export default TurfFertilization;
+export default WeedControl;

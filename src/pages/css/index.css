@@ -25,7 +25,7 @@ h1, h2, h3 {
 .carouselControls span {
   position: relative;
   /* overflow: hidden; */
-  margin-right: 4rem;
+  margin-right: 5rem;
 }
 .carouselControls span > div {
   position: absolute;
@@ -377,6 +377,9 @@ div.habtText p {
   .headerTitle h1 {
     font-size: 5rem;
   }
+  .carouselControls {
+    margin-right: 2.5rem;
+  }
   .background > div > span {
     font-size: .8em;
   }
@@ -593,7 +596,9 @@ div.habtText p {
   }
   .heroServices img {
     float: none;
+    margin-right: 0;
   }
+
   .heroServices > div {
     text-align: center;
   }

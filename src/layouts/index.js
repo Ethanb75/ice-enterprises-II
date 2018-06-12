@@ -8,10 +8,10 @@ import './index.css'
 const Layout = ({ children, data }) => (
   <div>
     <Helmet
-      title={data.site.siteMetadata.title}
+      // title={data.site.siteMetadata.title}
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: "Ice Enterprises: A landscaping, snow plowing, salting, deIcing, and turf maintenance company operating in Wisconsin & Illinois" },
+        { name: 'keywords', content: 'Ice Enterprises, landscaping, salting, deIcing, turf maintenance' },
       ]}
     />
     <Header />

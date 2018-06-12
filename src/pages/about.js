@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import Footer from '../components/Footer';
+import Helmet from 'react-helmet';
 
 
 import './css/about.css'
@@ -10,6 +11,9 @@ import abt from '../assets/abt_crop2.jpg';
 
 const AboutPage = () => (
   <div>
+    <Helmet
+      title="ICE Enterprises | About Us"
+    />
     <div className="subBackground">
       <img src={cover3} />
     </div>

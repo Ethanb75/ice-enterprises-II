@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import Helmet from 'react-helmet';
 
 import Footer from '../../components/Footer';
 
@@ -8,6 +9,9 @@ import lm1 from '../../assets/tf.jpg';
 
 const TurfFertilization = () => (
   <div>
+    <Helmet
+      title="ICE Enterprises | Turf & Field Maintenance"
+    />
     <div className="subBackground">
       <img src={cover} />
     </div>

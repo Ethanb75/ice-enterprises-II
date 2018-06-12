@@ -2,6 +2,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import Footer from '../components/Footer';
+import Helmet from 'react-helmet';
 
 
 import './css/projects.css'
@@ -15,6 +16,9 @@ function pageHeight() {
 
 const ProjectsPage = () => (
   <div>
+    <Helmet
+      title="ICE Enterprises | Projects"
+    />
     <div className="subBackground">
       <img src={cover3} />
     </div>
@@ -25,35 +29,16 @@ const ProjectsPage = () => (
       </div>
     </header>
     <main className="projWrap">
-      {/* <p>A few projects we're proud of from Grayslake Central High School to some beautiful retaining walls. </p> */}
       <h3 className="projIntro">Recent Projects</h3>
-      <div className="project">
-        {/* <h4>Grayslake Central HS</h4> */}
-      </div>
-      <div className="project">
-        {/* <h4>Project name</h4> */}
-      </div>
-      <div className="project">
-        {/* <h4>Project name</h4> */}
-      </div>
-      <div className="project">
-        {/* <h4>Project name</h4> */}
-      </div>
-      <div className="project">
-        {/* <h4>Project name</h4> */}
-      </div>
-      <div className="project">
-        {/* <h4>Project name</h4> */}
-      </div>
-      <div className="project">
-        {/* <h4>Project name</h4> */}
-      </div>
-      <div className="project">
-        {/* <h4>Hampton Inn</h4> */}
-      </div>
-      <div className="project">
-        {/* <h4>Project name</h4> */}
-      </div>
+      <div className="project"></div>
+      <div className="project"> </div>
+      <div className="project"></div>
+      <div className="project"></div>
+      <div className="project"></div>
+      <div className="project"></div>
+      <div className="project"></div>
+      <div className="project"></div>
+      <div className="project"></div>
       <div className="projectEnd">
         <h4>See our <a href="https://www.facebook.com/icesnowlandscape/">facebook</a> for more great examples.</h4>
       </div>

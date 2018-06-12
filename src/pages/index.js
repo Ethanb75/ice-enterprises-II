@@ -3,6 +3,7 @@ import Link from 'gatsby-link';
 import { navigateTo } from 'gatsby-link';
 import Carousel from '../components/Carousel';
 import Footer from '../components/Footer';
+import Helmet from 'react-helmet';
 
 import './css/index.css';
 
@@ -52,6 +53,10 @@ export default class IndexPage extends Component {
     const { carouselSlide } = this.state;
     return (
       <div>
+        <Helmet
+          title="ICE Enterprises | Illinois & Wisconsin Landscaping and Salting"
+        />
+
         <div className="background">
           <Carousel currentSlide={carouselSlide} />
           <div>
@@ -64,7 +69,7 @@ export default class IndexPage extends Component {
             <span>
               <div style={carouselSlide === 0 ? { opacity: 1 } : {}}>Grayslake Central HS</div>
               <div style={carouselSlide === 1 ? { opacity: 1 } : {}}>Grant HS</div>
-              <div style={carouselSlide === 2 ? { opacity: 1 } : {}}>project title3</div>
+              <div style={carouselSlide === 2 ? { opacity: 1 } : {}}>Local Home</div>
             </span>
             <button onClick={() => this.manualCarouselSelect(0)} className={carouselSlide === 0 ? 'cActive' : ''}>1</button>
             <button onClick={() => this.manualCarouselSelect(1)} className={carouselSlide === 1 ? 'cActive' : ''}>2</button>
@@ -72,7 +77,7 @@ export default class IndexPage extends Component {
           </div>
           <div className="headerTitle">
             <h1><span>ICE</span> Enterprises</h1>
-            <p>A Wisconsin based company specializing in de-icing and landscape planning, engineering, and architecture.</p>
+            <p>A Wisconsin & Illinois company specializing in salting and landscape planning, engineering, and architecture.</p>
             <div>
               <button onClick={() => window.scrollTo({ top: pageHeight(), behavior: 'smooth' })}>Contact Us</button>
             </div>
@@ -136,7 +141,7 @@ export default class IndexPage extends Component {
         <section className="quote">
           <div>
             <img src={quote} />
-            <h3>We had a short timeline and a small budget, other companies declined our project but ICE helped us deIce for the season</h3>
+            <h3>We had a short timeline and a small budget, other companies declined our project but ICE helped us deIce for the season.</h3>
             {/* <em>Company Name</em> */}
           </div>
         </section>
