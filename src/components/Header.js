@@ -56,7 +56,7 @@ export default class Header extends Component {
             <li>
               <Link to="/services" onClick={() => this.setState({ menu: false })}>Services</Link>
             </li>
-            <li className="num">(815) 271-0368</li>
+            <li className="num"><a href="tel:8152710368">(815) 271-0368</a></li>
             <li>
               <a href="mailto:estimates@ice2010.com">estimates@ice2010.com</a>
             </li>
