@@ -111,6 +111,7 @@ footer > div {
   footer {
     flex-direction: column;
     align-items: center;
+    padding-bottom: 7rem;
   }
   footer > div {
     width: initial;
@@ -123,5 +124,12 @@ footer > div {
   }
   .footLinks ul:first-of-type {
     margin-right: 0;
+  }
+  .meta {
+    flex-direction: column;
+    align-items: center;
+  }
+  .meta span {
+    margin-top: .25rem;
   }
 }
