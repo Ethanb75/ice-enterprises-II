@@ -548,6 +548,9 @@ div.habtText p {
   .heroServices > div {
     margin: 0 0 1rem 0;
   }
+  .heroServices p {
+    padding-left: 7.5rem;
+  }
   .heroServices img {
     float: left;
     margin-right: 2.5rem;
@@ -597,6 +600,9 @@ div.habtText p {
 @media screen and (max-width: 360px) {
   .headerTitle h1 {
     /* font-size: 3.5rem; */
+  }
+  .heroServices p {
+    padding: none;
   }
   .heroServices img {
     float: none;
