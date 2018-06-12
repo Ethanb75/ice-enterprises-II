@@ -112,11 +112,11 @@ button.main:hover, a.button.main:hover {
 }
 
 button:hover::after, a.button:hover::after, button.cActive::after {
-  transform: translateY(-100%);
+  transform: translateY(-99%);
 }
 
 button.main:hover::after, a.button.main:hover::after {
-  transform: translateY(-100%);
+  transform: translateY(-99%);
 }
 
 .background > div:last-of-type {
