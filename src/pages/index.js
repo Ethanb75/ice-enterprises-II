@@ -77,7 +77,7 @@ export default class IndexPage extends Component {
           </div>
           <div className="headerTitle">
             <h1><span>ICE</span> Enterprises</h1>
-            <p>A Wisconsin & Illinois company specializing in salting and landscape planning, engineering, and architecture.</p>
+            <p>A Wisconsin & Illinois company specializing in snow removal and landscape planning, engineering, and architecture.</p>
             <div>
               <button onClick={() => window.scrollTo({ top: pageHeight(), behavior: 'smooth' })}>Contact Us</button>
             </div>
