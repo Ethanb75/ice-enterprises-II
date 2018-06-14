@@ -31,7 +31,7 @@ const AboutPage = () => (
         Since then ICE has opperated on the idea that every job is important no matter how small.
       </p>
       <p>
-        ICE Enterprises offers a proven track record of creative, proffessional, and prompt landscape design and maintenance. We have a reputation for being the go-to landscaping company for difficult and precise projects. Because of our hard work, we've become a market leader in Wisconsin. We're working owners that care about each project individually.
+        ICE Enterprises offers a proven track record of creative, professional, and prompt landscape design and maintenance. We have a reputation for being the go-to landscaping company for difficult and precise projects. Because of our hard work, we've become a market leader in Wisconsin. We're working owners that care about each project individually.
       </p>
       <p></p>
     </main>

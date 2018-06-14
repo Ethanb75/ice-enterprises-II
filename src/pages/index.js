@@ -95,13 +95,13 @@ export default class IndexPage extends Component {
           </div>
           <div className="subTitleWrap">
             <h3>We offer <span>tailored</span> solutions for every budget</h3>
-            <p>In our 20 years of business we've offered many complex solutions for every project. Visit the services page or contact us today to learn about all the taylored solutions we offer.</p>
+            <p>In our 20 years of business we've offered many complex solutions for every project. Visit the services page or contact us today to learn about all the tailored solutions we offer.</p>
           </div>
           <div className="heroServices">
             <div>
               <img src={turf} />
               <h3>Turf Management</h3>
-              <p>advanced nutrient management in order to allow the growth of thick + healthy grass.</p>
+              <p>Advanced nutrient management in order to allow the growth of thick + healthy grass.</p>
             </div>
             <div>
               <img src={landscape} />
