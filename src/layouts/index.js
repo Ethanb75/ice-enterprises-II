@@ -9,9 +9,11 @@ const Layout = ({ children, data }) => (
   <div>
     <Helmet
       // title={data.site.siteMetadata.title}
+      // <meta name="google-site-verification" content="IC5VdmAoNmHAofqEMFRVqmeZZ9UR5RCv-bNBgoxyLnQ" />
       meta={[
         { name: 'description', content: "Ice Enterprises: A landscaping, snow plowing, salting, deIcing, and turf maintenance company operating in Wisconsin & Illinois" },
         { name: 'keywords', content: 'Ice Enterprises, landscaping, salting, deIcing, turf maintenance' },
+        { name: 'google-site-verification', content: 'IC5VdmAoNmHAofqEMFRVqmeZZ9UR5RCv-bNBgoxyLnQ' }
       ]}
     />
     <Header />
