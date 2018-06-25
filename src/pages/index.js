@@ -17,7 +17,7 @@ import quote from '../assets/icons/quote1.svg';
 import fam1 from '../assets/landscape-architecture.jpg';
 import fam2 from '../assets/salting-wisconsin-illinois.jpg';
 import fam3 from '../assets/landscape-design.jpg';
-import fam4 from '../assets/snow-removal-wisconsin-illinois.jpg';
+import fam4 from '../assets/landscape-planning.jpg';
 import trim from '../assets/landscape-maintenance.jpg';
 
 let carouselInterval;
