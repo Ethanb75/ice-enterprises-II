@@ -54,7 +54,7 @@ export default class IndexPage extends Component {
     return (
       <div>
         <Helmet
-          title="ICE Enterprises | Illinois & Wisconsin Landscaping and Salting"
+          title="Illinois & Wisconsin Landscaping and Salting | ICE Enterprises"
         />
 
         <div className="background">
