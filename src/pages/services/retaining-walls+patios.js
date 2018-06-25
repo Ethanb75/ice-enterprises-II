@@ -10,10 +10,10 @@ import lm1 from '../../assets/rw+p.jpg';
 const RetainingWalls = () => (
   <div>
     <Helmet
-      title="ICE Enterprises | Retaining Walls & Patio's"
+      title="Retaining Walls & Patio's | ICE Enterprises"
     />
     <div className="subBackground">
-      <img src={cover} />
+      <img src={cover} alt="" />
     </div>
     <header className="sub">
       <div className="headerTitle">
@@ -25,7 +25,7 @@ const RetainingWalls = () => (
       <div className="pagination">
         <Link to="/">Home</Link> > <Link to="/services">Services</Link> > Retaining Walls & Patios
       </div>
-      <img src={lm1} />
+      <img src={lm1} alt="Patio project from ICE enterprises" />
       <h3>Patio's</h3>
       <p>Concerned about the market value of your home? Increase the value of your house tremendously with one project. Adding a deck provides a high return on investment at 74 percent for composite and 87 percent for wood.</p>
       <p>On top of increasing the value of your home, adding a deck adds ‘WOW’ factor that’s unmatched. Entertain your friends and family with an outdoor installment that’s perfect for relaxation, cooking, game days, and hosting.</p>

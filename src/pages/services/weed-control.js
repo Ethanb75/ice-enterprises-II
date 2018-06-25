@@ -10,10 +10,10 @@ import lm1 from '../../assets/tf.jpg';
 const WeedControl = () => (
   <div>
     <Helmet
-      title="ICE Enterprises | Weed Control"
+      title="Weed Control | ICE Enterprises"
     />
     <div className="subBackground">
-      <img src={cover} />
+      <img src={cover} alt="" />
     </div>
     <header className="sub">
       <div className="headerTitle">
@@ -25,7 +25,7 @@ const WeedControl = () => (
       <div className="pagination">
         <Link to="/">Home</Link> > <Link to="/services">Services</Link> > Weed Control
       </div>
-      <img src={lm1} />
+      <img src={lm1} alt="Weed Control project in Illinois" />
       <h3>halting weeds quickly, and thoroughly</h3>
       <p>Weed control is a category of pest control that attempts to halt noxious or injurious weeds. While looking ugly, weeds can also compete with desired flora and fauna and cause complications. </p>
       <p>ICE utilizes only the highest quality pesticides in ALL projects. Other companies pesticides can take up to a week, Our solution ensures results in only 3 - 4 days. Our pesticides cover 120 - 170 different types of weeds versus the competitions 100 different types.</p>

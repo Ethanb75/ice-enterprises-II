@@ -10,10 +10,10 @@ import lm1 from '../../assets/sr.jpg';
 const SnowRemoval = () => (
   <div>
     <Helmet
-      title="ICE Enterprises | Salting, DeIcing, and Snow Removal"
+      title="Salting, DeIcing, and Snow Removal | ICE Enterprises"
     />
     <div className="subBackground">
-      <img src={cover} />
+      <img src={cover} alt="" />
     </div>
     <header className="sub">
       <div className="headerTitle">
@@ -25,7 +25,7 @@ const SnowRemoval = () => (
       <div className="pagination">
         <Link to="/">Home</Link> > <Link to="/services">Services</Link> > Snow Removal
       </div>
-      <img src={lm1} />
+      <img src={lm1} alt="snow removal from ICE enterprises" />
       <h3>Professional snow removal & salting</h3>
       <p>
         Snow removal and salting improves the safety of your commercial property. Ensure peace of mind this winter by hiring a professional and budget friendly team.

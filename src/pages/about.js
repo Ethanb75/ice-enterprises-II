@@ -12,10 +12,10 @@ import abt from '../assets/abt_crop2.jpg';
 const AboutPage = () => (
   <div>
     <Helmet
-      title="ICE Enterprises | About Us"
+      title="About Us | ICE Enterprises"
     />
     <div className="subBackground">
-      <img src={cover3} />
+      <img src={cover3} alt="turf maintenance showcase" />
     </div>
     <header className="sub">
       <div className="headerTitle">
@@ -24,7 +24,7 @@ const AboutPage = () => (
       </div>
     </header>
     <main className="abtWrap">
-      <img src={abt} />
+      <img src={abt} alt="Jane & Gene" />
       <h3>A family owned business that's been helping businesses and individuals for over 20 years</h3>
       <p>
         ICE enterprises started after a fellow contractor refused service to a local business during a trying time because the project wasn't big enough.

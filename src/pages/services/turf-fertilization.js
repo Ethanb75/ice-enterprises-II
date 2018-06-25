@@ -10,7 +10,7 @@ import lm1 from '../../assets/tf.jpg';
 const TurfFertilization = () => (
   <div>
     <Helmet
-      title="ICE Enterprises | Turf & Field Maintenance"
+      title="Turf & Field Maintenance | ICE Enterprises"
     />
     <div className="subBackground">
       <img src={cover} />
@@ -25,7 +25,7 @@ const TurfFertilization = () => (
       <div className="pagination">
         <Link to="/">Home</Link> > <Link to="/services">Services</Link> > Turf Fertilization
       </div>
-      <img src={lm1} />
+      <img src={lm1} alt="Turf & Field maintenance project in Wisconsin" />
       <h3>Advanced nutrition management</h3>
       <p>
         Turf Fertilization is a maintenance solution that requires advanced nutrient management in order to allow the growth of thick + healthy grass. It’s a solution that’s helpful for all customers from small residential plots to professional athletic fields.

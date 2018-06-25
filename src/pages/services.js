@@ -17,10 +17,10 @@ function pageHeight() {
 const ServicesPage = () => (
   <div>
     <Helmet
-      title="ICE Enterprises | Services"
+      title="Services | ICE Enterprises"
     />
     <div className="subBackground">
-      <img src={cover3} />
+      <img src={cover3} alt="turf maintenance project" />
     </div>
     <header className="sub">
       <div className="headerTitle">

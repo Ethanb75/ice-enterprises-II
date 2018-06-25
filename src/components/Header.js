@@ -24,7 +24,7 @@ export default class Header extends Component {
                 textDecoration: 'none'
               }}
             >
-              <img src={logo} alt="Ice enterprises logo" />
+              <img src={logo} alt="Ice enterprises" />
             </Link>
           </h1>
         </div>

@@ -11,7 +11,6 @@ import './css/index.css';
 import landscape from '../assets/icons/landscape.svg';
 import plow from '../assets/icons/plow.svg';
 import turf from '../assets/icons/turf.svg';
-import dot from '../assets/icons/dot.svg';
 import quote from '../assets/icons/quote1.svg';
 
 //images
@@ -54,7 +53,7 @@ export default class IndexPage extends Component {
     return (
       <div>
         <Helmet
-          title="Illinois & Wisconsin Landscaping and Salting | ICE Enterprises"
+          title="ICE Enterprises | Illinois & Wisconsin Landscaping and Salting"
         />
 
         <div className="background">
@@ -77,7 +76,7 @@ export default class IndexPage extends Component {
           </div>
           <div className="headerTitle">
             <h1><span>ICE</span> Enterprises</h1>
-            <p>A Wisconsin & Illinois company specializing in snow removal and landscape planning, engineering, and architecture.</p>
+            <p>A Wisconsin & Illinois landscaping company specializing in snow removal and landscape planning, engineering, and architecture.</p>
             <div>
               <button onClick={() => window.scrollTo({ top: pageHeight(), behavior: 'smooth' })}>Contact Us</button>
             </div>
@@ -87,10 +86,10 @@ export default class IndexPage extends Component {
           <div>
             <div>
               <h3><span>20</span> years of professional service</h3>
-              <p>For over 20 years ICE enterprises has made happy customers in the greater Wisconsin area. we offer a wide range of services to suite corporations of all sizes.</p>
+              <p>For over 20 years ICE enterprises has made happy customers in the greater Wisconsin & Illinois area. we offer a wide range of services to suite corporations of all sizes.</p>
             </div>
             <div>
-              <img src={trim} />
+              <img src={trim} alt="Landscaping project completed by ICE Enterprises" />
             </div>
           </div>
           <div className="subTitleWrap">
@@ -99,17 +98,17 @@ export default class IndexPage extends Component {
           </div>
           <div className="heroServices">
             <div>
-              <img src={turf} />
+              <img src={turf} alt="" />
               <h3>Turf Management</h3>
               <p>Advanced nutrient management in order to allow the growth of thick + healthy grass.</p>
             </div>
             <div>
-              <img src={landscape} />
+              <img src={landscape} alt="" />
               <h3>Landscaping</h3>
               <p>One of our most popular solutions is the general maintenance solution. This includes premium fertilization, weeding, mowing, mulching and more.</p>
             </div>
             <div>
-              <img src={plow} />
+              <img src={plow} alt="" />
               <h3>Snow Plowing & Salting</h3>
               <p>Ensure peace of mind this winter by hiring a professional and budget friendly team.</p>
             </div>
@@ -120,10 +119,10 @@ export default class IndexPage extends Component {
         </section>
         <section className="heroAbout">
           <div>
-            <img src={fam2} />
+            <img src={fam2} alt="Snow plowing project" />
           </div>
           <div>
-            <img src={fam4} />
+            <img src={fam4} alt="turf management project" />
           </div>
           <div className="habtText">
             {/* <h3>Experienced in delivering consistent excellence</h3> */}
@@ -132,15 +131,15 @@ export default class IndexPage extends Component {
             <Link to="/projects" className="main button">see our projects</Link>
           </div>
           <div>
-            <img src={fam3} />
+            <img src={fam3} alt="Turf maintenance" />
           </div>
           <div>
-            <img src={fam1} />
+            <img src={fam1} alt="Landscaping maintenance" />
           </div>
         </section>
         <section className="quote">
           <div>
-            <img src={quote} />
+            <img src={quote} alt="" />
             <h3>We had a short timeline and a small budget, other companies declined our project but ICE helped us deIce for the season.</h3>
             {/* <em>Company Name</em> */}
           </div>
