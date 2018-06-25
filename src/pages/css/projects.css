@@ -34,39 +34,39 @@ main.projWrap {
 }
 
 .project:nth-of-type(1) {
-  background: url(../../assets/proj1.jpg) center center no-repeat;
+  background: url(../../assets/turf-management-2.jpg) center center no-repeat;
   background-size: cover;
 }
 .project:nth-of-type(2) {
-  background: url(../../assets/serv3.jpg) center bottom no-repeat;
+  background: url(../../assets/landscape-planning.jpg) center bottom no-repeat;
   background-size: cover;
 }
 .project:nth-of-type(3) {
-  background: url(../../assets/rw+p.jpg) center center no-repeat;
+  background: url(../../assets/retaining-walls-illinois-wisconsin.jpg) center center no-repeat;
   background-size: cover;
 }
 .project:nth-of-type(4) {
-  background: url(../../assets/abt2.jpg) center center no-repeat;
+  background: url(../../assets/landscape-architecture.jpg) center center no-repeat;
   background-size: cover;
 }
 .project:nth-of-type(5) {
-  background: url(../../assets/hero.jpg) center center no-repeat;
+  background: url(../../assets/turf-management.jpg) center center no-repeat;
   background-size: cover;
 }
 .project:nth-of-type(6) {
-  background: url(../../assets/serv5.jpg) center center no-repeat;
+  background: url(../../assets/turf-maintenance-2.jpg) center center no-repeat;
   background-size: cover;
 }
 .project:nth-of-type(7) {
-  background: url(../../assets/trim3.jpg) center center no-repeat;
+  background: url(../../assets/landscape-maintenance.jpg) center center no-repeat;
   background-size: cover;
 }
 .project:nth-of-type(8) {
-  background: url(../../assets/proj2.jpg) center center no-repeat;
+  background: url(../../assets/landscaping-illinois.jpg) center center no-repeat;
   background-size: cover;
 }
 .project:nth-of-type(9) {
-  background: url(../../assets/proj3.jpg) center center no-repeat;
+  background: url(../../assets/landscaping-wisconsin.jpg) center center no-repeat;
   background-size: cover;
 }
 

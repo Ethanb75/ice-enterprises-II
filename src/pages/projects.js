@@ -1,17 +1,12 @@
 // this is a landing for the multiple other services
 import React from 'react';
-import Link from 'gatsby-link';
 import Footer from '../components/Footer';
 import Helmet from 'react-helmet';
 
 
 import './css/projects.css'
 
-import cover3 from '../assets/serv4.jpg';
-
-function pageHeight() {
-  return document.querySelector('body').getBoundingClientRect().height
-}
+import cover3 from '../assets/turf-fertilization.jpg';
 
 
 const ProjectsPage = () => (

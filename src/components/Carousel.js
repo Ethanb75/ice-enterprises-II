@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './Carousel.css';
 
-import cover1 from '../assets/iceCover-2000.jpg';
-import cover2 from '../assets/serv5.jpg';
-import cover3 from '../assets/serv2.1-comp.jpg';
+import cover1 from '../assets/turf-maintenance.jpg';
+import cover2 from '../assets/turf-maintenance-2.jpg';
+import cover3 from '../assets/landscape-development.jpg';
 
 export default class Carousel extends Component {
   render() {

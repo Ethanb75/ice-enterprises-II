@@ -1,12 +1,11 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import Footer from '../components/Footer';
 import Helmet from 'react-helmet';
 
 
 import './css/about.css'
 
-import cover3 from '../assets/serv5.jpg';
+import cover3 from '../assets/turf-maintenance-2.jpg';
 import abt from '../assets/abt_crop2.jpg';
 
 const AboutPage = () => (

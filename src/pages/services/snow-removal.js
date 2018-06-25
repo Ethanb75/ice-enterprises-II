@@ -4,8 +4,8 @@ import Helmet from 'react-helmet';
 
 import Footer from '../../components/Footer';
 
-import cover from '../../assets/serv2.1-comp.jpg';
-import lm1 from '../../assets/sr.jpg';
+import cover from '../../assets/landscape-development.jpg';
+import lm1 from '../../assets/snow-removal-wisconsin-illinois.jpg';
 
 const SnowRemoval = () => (
   <div>

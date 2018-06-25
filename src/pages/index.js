@@ -14,11 +14,11 @@ import turf from '../assets/icons/turf.svg';
 import quote from '../assets/icons/quote1.svg';
 
 //images
-import fam1 from '../assets/abt2.jpg';
-import fam2 from '../assets/truck2.jpg';
-import fam3 from '../assets/serv1.jpg';
-import fam4 from '../assets/serv3.jpg';
-import trim from '../assets/trim3.jpg';
+import fam1 from '../assets/landscape-architecture.jpg';
+import fam2 from '../assets/salting-wisconsin-illinois.jpg';
+import fam3 from '../assets/landscape-design.jpg';
+import fam4 from '../assets/snow-removal-wisconsin-illinois.jpg';
+import trim from '../assets/landscape-maintenance.jpg';
 
 let carouselInterval;
 

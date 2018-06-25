@@ -7,7 +7,7 @@ import Helmet from 'react-helmet';
 
 import './css/services.css'
 
-import cover3 from '../assets/serv2.1-comp.jpg';
+import cover3 from '../assets/landscape-development.jpg';
 
 function pageHeight() {
   return document.querySelector('body').getBoundingClientRect().height
