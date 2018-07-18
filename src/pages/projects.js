@@ -34,6 +34,7 @@ const ProjectsPage = () => (
       <div className="project"></div>
       <div className="project"></div>
       <div className="project"></div>
+      <div className="project"></div>
       <div className="projectEnd">
         <h4>See our <a href="https://www.facebook.com/icesnowlandscape/">facebook</a> for more great examples.</h4>
       </div>

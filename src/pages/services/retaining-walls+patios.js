@@ -6,6 +6,7 @@ import Footer from '../../components/Footer';
 
 import cover from '../../assets/landscape-development.jpg';
 import lm1 from '../../assets/retaining-walls-illinois-wisconsin.jpg';
+import rw from '../../assets/retaining-wall-wisconsin.jpg';
 
 const RetainingWalls = () => (
   <div>
@@ -29,6 +30,7 @@ const RetainingWalls = () => (
       <h3>Patio's</h3>
       <p>Concerned about the market value of your home? Increase the value of your house tremendously with one project. Adding a deck provides a high return on investment at 74 percent for composite and 87 percent for wood.</p>
       <p>On top of increasing the value of your home, adding a deck adds ‘WOW’ factor that’s unmatched. Entertain your friends and family with an outdoor installment that’s perfect for relaxation, cooking, game days, and hosting.</p>
+      <img src={rw} style={{ marginTop: '2rem' }} />
       <h3>Retaining walls</h3>
       <p>Retaining walls are rigid walls used to retain soil at different levels on both sides. They contain soil to a slope that wouldn’t occur naturally.</p>
       <p>Retaining walls are thought of as mostly utilitarian, but can be incorporated into your existing architecture to create a beautiful multi-use outdoor living space. Using unique shapes, terracing, and intricate designs make for beautiful outdoor solutions that add value to your home or property.</p>
