@@ -40,7 +40,7 @@ const Footer = ({ color }) => (
     <div className={color ? "meta purp" : "meta"}>
       <span>© ICE Enterprises</span>
       <span>Icons by <a href="https://www.flaticon.com/authors/pixelmeetup" title="pixelmeetup">pixelmeetup</a> from <a href="https://www.flaticon.com/" title="Flaticon">flaticon.com</a></span>
-      <span>Site by <a href="https://www.worldwidebusinessllc.com" target="__blank">World Wide Business LLC</a></span>
+      <span>Site by <a href="https://ethandevelops.com" target="__blank">Ethan B</a></span>
     </div>
   </footer>
 );
