@@ -35,6 +35,16 @@ const RetainingWalls = () => (
       <p>Retaining walls are rigid walls used to retain soil at different levels on both sides. They contain soil to a slope that wouldn’t occur naturally.</p>
       <p>Retaining walls are thought of as mostly utilitarian, but can be incorporated into your existing architecture to create a beautiful multi-use outdoor living space. Using unique shapes, terracing, and intricate designs make for beautiful outdoor solutions that add value to your home or property.</p>
       <p>Need an architetural solution that's not listed? <a href="mailto:estimates@ice2010.com" target="__blank">Contact us</a> today for a custom solution.</p>
+      <h3>Manufacturers we use</h3>
+      <p style={{ marginBottom: "5px" }}>
+        <a href="http://rohestercp.com/outdoor-living-kits">Rocheser Living Kits</a>
+      </p>
+      <p style={{ marginBottom: "5px" }}>
+        <a href="https://www.belgard.com">Belgard Pavers</a>
+      </p>
+      <p style={{ marginBottom: "5px" }}>
+        <a href="https://unilock.com">Unilock Pavers</a>
+      </p>
     </main>
     <section className="caller">
       <div>
